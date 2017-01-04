@@ -1,6 +1,5 @@
 
 
-$(document).ready(function(){
 		$('.loader').fadeOut(5000);
 		/*PIECHART*/		
 		google.charts.load('current', {'packages':['corechart']});
@@ -505,5 +504,4 @@ $(document).ready(function(){
 					    set_lang(dictionary.english);
 
 					});
-		});
 
